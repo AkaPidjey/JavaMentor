@@ -1,4 +1,4 @@
-package Java_Core;
+package Java_Core_Module_1_2;
 
 public class Task_2_3_10 {
     public static boolean isPalindrome(String text) {

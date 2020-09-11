@@ -1,4 +1,4 @@
-package Java_Core;
+package Java_Core_Module_1_2;
 
 public class Task_2_1_10 {
     public static boolean doubleExpression(double a, double b, double c) {

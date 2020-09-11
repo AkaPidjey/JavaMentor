@@ -1,4 +1,4 @@
-package Java_Core;
+package Java_Core_Module_1_2;
 
 public class Task_2_2_8 {
     public static boolean isPowerOfTwo(int value) {
