@@ -2,7 +2,6 @@ package Java_Core_Module_1_2;
 
 public class Task_2_4_17 {
     public static void printOddNumbers(int[] arr) {
-        int count = 0;
         StringBuffer sb = new StringBuffer();
 
         for (int i = 0; i < arr.length; i++) {
@@ -12,10 +11,8 @@ public class Task_2_4_17 {
             }
         }
 
-        count = sb.length();
-        sb.deleteCharAt(count - 1);
-        System.out.print(sb);
-        System.out.println("");
+        sb.deleteCharAt(sb.length() - 1);
+        System.out.print(sb + "\n");
     }
 
     public static void main(String[] args) {
