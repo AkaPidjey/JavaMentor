@@ -11,9 +11,8 @@ public class Task_5_2_8 {
 
             if (temp % 2 == 0) {
                 outputStream.write(temp);
-                outputStream.flush();
             }
         }
-
+        outputStream.flush();
     }
 }
